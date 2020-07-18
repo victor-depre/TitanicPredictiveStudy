@@ -1,0 +1,26 @@
+---
+title: "TitanicAnalysis"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+dataset1 <- read.csv("train.csv")
+dataset1
+dataset2 <- read.csv("test.csv")
+dataset2
+dataset3 <- read.csv("gender_submission.csv")
+dataset3
+```
+
+```{r}
+head(dataset1,5)
+```
+
+```{r}
+head(dataset2,5)
+```
+
